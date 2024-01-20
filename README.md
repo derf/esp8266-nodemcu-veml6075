@@ -1,8 +1,9 @@
 # ESP8266 Lua/NodeMCU module for VEML6075 UV irradiance sensors
 
-This repository contains an ESP8266 NodeMCU Lua module (`sen5x.lua`) as well as
-MQTT / HomeAssistant / InfluxDB integration example (`init.lua`) for
-**VEML6075** UV irradiance sensors connected via I²C.
+[esp8266-nodemcu-veml6075](https://finalrewind.org/projects/esp8266-nodemcu-veml6075/)
+provides an ESP8266 NodeMCU Lua module (`sen5x.lua`) as well as MQTT /
+HomeAssistant / InfluxDB integration example (`init.lua`) for **VEML6075** UV
+irradiance sensors connected via I²C.
 
 ## Dependencies
 
@@ -75,3 +76,11 @@ influx_attr = "..."
 
 Readings will be published as `veml6075[influx_attr] uva_uwcm2=%f,uvb_uwcm2=%f,uv_index=%f`.
 So, unless `influx_attr = ''`, it must start with a comma, e.g. `influx_attr = ',device=' .. device_id`.
+
+## Resources
+
+Mirrors of the esp8266-nodemcu-veml6075 repository are maintained at the following locations:
+
+* [Chaosdorf](https://chaosdorf.de/git/derf/esp8266-nodemcu-veml6075)
+* [git.finalrewind.org](https://git.finalrewind.org/esp8266-nodemcu-veml6075/)
+* [GitHub](https://github.com/derf/esp8266-nodemcu-veml6075)
