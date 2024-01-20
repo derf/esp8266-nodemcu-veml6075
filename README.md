@@ -7,8 +7,8 @@ irradiance sensors connected via I²C.
 
 ## Dependencies
 
-veml6075.lua has been tested with Lua 5.1 on NodeMCU firmware 3.0.1 (Release
-202112300746, integer build). It requires the following modules.
+**veml6075.lua** has been tested with Lua 5.1 on NodeMCU firmware 3.0.1
+(Release 202112300746, float build). It requires the following modules.
 
 * i2c
 
